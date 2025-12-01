@@ -1,0 +1,45 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #161a2a;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+.flex {
+    display: flex;
+    column-gap: 2rem;
+    margin-top: 1rem;
+}
